@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>pipeline test</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:0;padding:16px}div{height:600px;border-bottom:1px dashed #999}</style></head>
+<body><!-- Pipeline smoke test only: the real page template is written after START. -->
+<div>{{ name }} / {{ city }} / {{ category }}</div>
+<div>{% for s in services %}{{ s.name }}: {{ s.price }}<br>{% endfor %}</div>
+<div>{{ wa }}</div></body></html>

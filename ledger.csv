@@ -1,1 +1,1 @@
-date,order_id,source,amount_kzt,status,expected_date,proof,friend,note
+date,order_id,stream,counterparty,acquaintance,amount_kzt,orig_amount,status,expected_date,proof,note
